@@ -5,11 +5,22 @@ I used the following tools to implement google task API in web application.
 
 1. PHPstorm 2016.3.2.
 2. XAMPP server v3.2.1.
-3. Laravel programming language.
+3. Laravel programming language (v5.4.15).
 4. Composer
 
 Open the terminal
-run the command  "php taskController.php"
+> run the command  "php taskController.php"
+> it will generate the link of google task.
+> open the link in web browser.
+> click on "allow" butten.
+> code is generate in the text box.
+> copy that code in commmand window of phpstorm/
+
+
+Verification code??
+> It is because of a folder with the name of ".credentials" in the path "C:\Users\abcPC" is create.
+> In the .credentials folder a file with the name of "tasks-php-quickstart" is created.
+> The file has the information of "access token".
 
 
 
